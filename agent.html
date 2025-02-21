@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Agent Details</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <button onclick="window.history.back()">← Back</button>
+    <h1 id="agentName">Agent Name</h1>
+  </header>
+  
+  <section class="agent-detail">
+    <img id="agentBanner" src="" alt="Agent Banner">
+    <p id="agentDetails">Agent details go here.</p>
+  </section>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const urlParams = new URLSearchParams(window.location.search);
+      const agentId = urlParams.get('id');
+
+      fetch('agents.json')
+        .then(response => response.json())
+        .then(data => {
+          const agent = data.find(a => a.id == agentId);
+          if (agent) {
+            document.getElementById('agentName').textContent = agent.name;
+            document.getElementById('agentBanner').src = agent.banner;
+            document.getElementById('agentDetails').textContent = agent.details;
+          }
+        });
+    });
+  </script>
+</body>
+</html>

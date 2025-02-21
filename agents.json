@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "name": "Agent One",
+    "thumbnail": "https://placehold.co/200x200?text=Language+AI",
+    "banner": "agent1-banner.jpg",
+    "description": "Brief description of Agent One.",
+    "details": "Detailed description of Agent One. This section can include features, background info, and links for further exploration."
+  },
+  {
+    "id": 2,
+    "name": "Agent Two",
+    "thumbnail": "https://placehold.co/200x200?text=Language+AI",
+    "banner": "agent2-banner.jpg",
+    "description": "Brief description of Agent Two.",
+    "details": "Detailed description of Agent Two. This section can include features, background info, and links for further exploration."
+  },
+  {
+    "id": 3,
+    "name": "Agent Three",
+    "thumbnail": "https://placehold.co/200x200?text=Language+AI",
+    "banner": "agent3-banner.jpg",
+    "description": "Brief description of Agent Three.",
+    "details": "Detailed description of Agent Three. This section can include features, background info, and links for further exploration."
+  },
+  {
+    "id": 1,
+    "name": "Agent One",
+    "thumbnail": "https://placehold.co/200x200?text=Language+AI",
+    "banner": "agent1-banner.jpg",
+    "description": "Brief description of Agent One.",
+    "details": "Detailed description of Agent One. This section can include features, background info, and links for further exploration."
+  },
+  {
+    "id": 2,
+    "name": "Agent Two",
+    "thumbnail": "https://placehold.co/200x200?text=Language+AI",
+    "banner": "agent2-banner.jpg",
+    "description": "Brief description of Agent Two.",
+    "details": "Detailed description of Agent Two. This section can include features, background info, and links for further exploration."
+  },
+  {
+    "id": 3,
+    "name": "Agent Three",
+    "thumbnail": "https://placehold.co/200x200?text=Language+AI",
+    "banner": "agent3-banner.jpg",
+    "description": "Brief description of Agent Three.",
+    "details": "Detailed description of Agent Three. This section can include features, background info, and links for further exploration."
+  },
+  {
+    "id": 1,
+    "name": "Agent One",
+    "thumbnail": "https://placehold.co/200x200?text=Language+AI",
+    "banner": "agent1-banner.jpg",
+    "description": "Brief description of Agent One.",
+    "details": "Detailed description of Agent One. This section can include features, background info, and links for further exploration."
+  },
+  {
+    "id": 2,
+    "name": "Agent Two",
+    "thumbnail": "https://placehold.co/200x200?text=Language+AI",
+    "banner": "agent2-banner.jpg",
+    "description": "Brief description of Agent Two.",
+    "details": "Detailed description of Agent Two. This section can include features, background info, and links for further exploration."
+  },
+  {
+    "id": 3,
+    "name": "Agent Three",
+    "thumbnail": "https://placehold.co/200x200?text=Language+AI",
+    "banner": "agent3-banner.jpg",
+    "description": "Brief description of Agent Three.",
+    "details": "Detailed description of Agent Three. This section can include features, background info, and links for further exploration."
+  },
+  {
+    "id": 1,
+    "name": "Agent One",
+    "thumbnail": "https://placehold.co/200x200?text=Language+AI",
+    "banner": "agent1-banner.jpg",
+    "description": "Brief description of Agent One.",
+    "details": "Detailed description of Agent One. This section can include features, background info, and links for further exploration."
+  },
+  {
+    "id": 2,
+    "name": "Agent Two",
+    "thumbnail": "https://placehold.co/200x200?text=Language+AI",
+    "banner": "agent2-banner.jpg",
+    "description": "Brief description of Agent Two.",
+    "details": "Detailed description of Agent Two. This section can include features, background info, and links for further exploration."
+  },
+  {
+    "id": 3,
+    "name": "Agent Three",
+    "thumbnail": "https://placehold.co/200x200?text=Language+AI",
+    "banner": "agent3-banner.jpg",
+    "description": "Brief description of Agent Three.",
+    "details": "Detailed description of Agent Three. This section can include features, background info, and links for further exploration."
+  },
+  {
+    "id": 1,
+    "name": "Agent One",
+    "thumbnail": "https://placehold.co/200x200?text=Language+AI",
+    "banner": "agent1-banner.jpg",
+    "description": "Brief description of Agent One.",
+    "details": "Detailed description of Agent One. This section can include features, background info, and links for further exploration."
+  },
+  {
+    "id": 2,
+    "name": "Agent Two",
+    "thumbnail": "https://placehold.co/200x200?text=Language+AI",
+    "banner": "agent2-banner.jpg",
+    "description": "Brief description of Agent Two.",
+    "details": "Detailed description of Agent Two. This section can include features, background info, and links for further exploration."
+  },
+  {
+    "id": 3,
+    "name": "Agent Three",
+    "thumbnail": "https://placehold.co/200x200?text=Language+AI",
+    "banner": "agent3-banner.jpg",
+    "description": "Brief description of Agent Three.",
+    "details": "Detailed description of Agent Three. This section can include features, background info, and links for further exploration."
+  },
+  {
+    "id": 1,
+    "name": "Agent One",
+    "thumbnail": "https://placehold.co/200x200?text=Language+AI",
+    "banner": "agent1-banner.jpg",
+    "description": "Brief description of Agent One.",
+    "details": "Detailed description of Agent One. This section can include features, background info, and links for further exploration."
+  },
+  {
+    "id": 2,
+    "name": "Agent Two",
+    "thumbnail": "https://placehold.co/200x200?text=Language+AI",
+    "banner": "agent2-banner.jpg",
+    "description": "Brief description of Agent Two.",
+    "details": "Detailed description of Agent Two. This section can include features, background info, and links for further exploration."
+  },
+  {
+    "id": 3,
+    "name": "Agent Three",
+    "thumbnail": "https://placehold.co/200x200?text=Language+AI",
+    "banner": "agent3-banner.jpg",
+    "description": "Brief description of Agent Three.",
+    "details": "Detailed description of Agent Three. This section can include features, background info, and links for further exploration."
+  }
+]
