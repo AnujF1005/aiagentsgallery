@@ -13,8 +13,9 @@
   </header>
   
   <section class="agent-detail">
-    <img id="agentBanner" src="" alt="Agent Banner">
-    <p id="agentDetails">Agent details go here.</p>
+    <center><img id="agentBanner" src="" alt="Agent Banner"></center>
+    <div id="agentTags" class="agent-tags"></div>
+    <div id="agentDetails">Agent details go here.</div>
   </section>
 
   <script>
@@ -29,8 +30,23 @@
           if (agent) {
             document.getElementById('agentName').textContent = agent.name;
             document.getElementById('agentBanner').src = agent.banner;
-            document.getElementById('agentDetails').textContent = agent.details;
+            const tags = agent.tags.map(tag => `<span class="tag">${tag}</span>`).join(' ');
+            document.getElementById('agentTags').innerHTML = tags;
+
+            // Fetch the content of the file specified in agent.details
+            fetch(agent.details)
+              .then(response => response.text())
+              .then(content => {
+                document.getElementById('agentDetails').innerHTML = content;
+              })
+              .catch(error => {
+                console.error('Error fetching agent details:', error);
+                document.getElementById('agentDetails').textContent = 'Error loading agent details.';
+              });
           }
+        })
+        .catch(error => {
+          console.error('Error fetching agents.json:', error);
         });
     });
   </script>

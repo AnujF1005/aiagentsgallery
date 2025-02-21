@@ -1,146 +1,56 @@
 [
   {
-    "id": 1,
-    "name": "Agent One",
-    "thumbnail": "https://placehold.co/200x200?text=Language+AI",
-    "banner": "agent1-banner.jpg",
-    "description": "Brief description of Agent One.",
-    "details": "Detailed description of Agent One. This section can include features, background info, and links for further exploration."
+    "id": "auto-gpt",
+    "name": "Auto-GPT",
+    "thumbnail": "https://framerusercontent.com/images/yLy7lKmi5wAkquNuDtX1yfZHnF4.png?scale-down-to=4096",
+    "banner": "https://framerusercontent.com/images/yLy7lKmi5wAkquNuDtX1yfZHnF4.png?scale-down-to=4096",
+    "description": "An open-source autonomous AI agent that leverages GPT models to plan and execute multi-step tasks with minimal human intervention.",
+    "details": "agents/autogpt.html",
+    "tags": ["open-source", "autonomous", "GPT"]
   },
   {
-    "id": 2,
-    "name": "Agent Two",
-    "thumbnail": "https://placehold.co/200x200?text=Language+AI",
-    "banner": "agent2-banner.jpg",
-    "description": "Brief description of Agent Two.",
-    "details": "Detailed description of Agent Two. This section can include features, background info, and links for further exploration."
+    "id": "agent-gpt",
+    "name": "AgentGPT",
+    "thumbnail": "",
+    "banner": "",
+    "description": "A versatile framework for building custom multi-agent systems that can coordinate and automate complex workflows.",
+    "details": "agents/agentgpt.html",
+    "tags": ["framework", "multi-agent", "automation"]
   },
   {
-    "id": 3,
-    "name": "Agent Three",
-    "thumbnail": "https://placehold.co/200x200?text=Language+AI",
-    "banner": "agent3-banner.jpg",
-    "description": "Brief description of Agent Three.",
-    "details": "Detailed description of Agent Three. This section can include features, background info, and links for further exploration."
+    "id": "baby-agi",
+    "name": "BabyAGI",
+    "thumbnail": "",
+    "banner": "https://raw.githubusercontent.com/yoheinakajima/babyagi/master/assets/banner.png?raw=true",
+    "description": "A lightweight, open-source AI agent framework that demonstrates autonomous planning and decision-making with minimal overhead.",
+    "details": "<h2>Diving Into BabyAGI: A Minimalistic Autonomous Agent</h2>\n<p>BabyAGI is designed as an accessible entry point for developers curious about autonomous AI. It leverages GPT-based models to plan and execute tasks, providing a simplified yet powerful framework for exploring multi-step decision-making and automation.</p>\n<p><img src=\"https://raw.githubusercontent.com/yoheinakajima/babyagi/master/assets/logo.png?raw=true\" alt=\"BabyAGI Logo\" style=\"max-width:100%;height:auto;\" /></p>\n<p>This project emphasizes simplicity and ease of use, making it ideal for prototyping innovative ideas and gaining hands-on experience with autonomous agent design. Its open-source nature invites community contributions and continuous improvement.</p>\n<p>For an in-depth look at BabyAGI and to access its code, visit the <a href=\"https://github.com/yoheinakajima/babyagi\" target=\"_blank\">BabyAGI GitHub repository</a> and explore community-driven blog posts on how to get started.</p>",
+    "tags": ["lightweight", "open-source", "autonomous"]
   },
   {
-    "id": 1,
-    "name": "Agent One",
-    "thumbnail": "https://placehold.co/200x200?text=Language+AI",
-    "banner": "agent1-banner.jpg",
-    "description": "Brief description of Agent One.",
-    "details": "Detailed description of Agent One. This section can include features, background info, and links for further exploration."
+    "id": "chatgpt",
+    "name": "ChatGPT",
+    "thumbnail": "",
+    "banner": "https://openai.com/content/images/2023/03/chatgpt-banner.png",
+    "description": "OpenAI's flagship conversational AI that delivers human-like text responses and advanced reasoning capabilities across diverse topics.",
+    "details": "<h2>ChatGPT: Redefining Conversational AI</h2>\n<p>ChatGPT, powered by GPT-4, stands at the forefront of conversational AI, offering impressive language understanding and context-aware responses. Its advanced chain-of-thought reasoning allows it to tackle complex queries, making it a versatile tool for customer support, content creation, and interactive learning.</p>\n<p><img src=\"https://openai.com/content/images/2023/03/chatgpt-logo.png\" alt=\"ChatGPT Logo\" style=\"max-width:100%;height:auto;\" /></p>\n<p>ChatGPT's robust performance and intuitive conversational interface have set a new standard in the AI industry. Whether you need help with coding, writing, or even brainstorming, ChatGPT is designed to assist with a natural, fluid interaction experience.</p>\n<p>Discover more about its features and explore interactive demos by visiting the <a href=\"https://chat.openai.com/\" target=\"_blank\">ChatGPT platform</a> and reading the latest updates on the <a href=\"https://openai.com/blog/\" target=\"_blank\">OpenAI Blog</a>.</p>",
+    "tags": ["conversational", "GPT-4", "AI"]
   },
   {
-    "id": 2,
-    "name": "Agent Two",
-    "thumbnail": "https://placehold.co/200x200?text=Language+AI",
-    "banner": "agent2-banner.jpg",
-    "description": "Brief description of Agent Two.",
-    "details": "Detailed description of Agent Two. This section can include features, background info, and links for further exploration."
+    "id": "grok",
+    "name": "Grok",
+    "thumbnail": "",
+    "banner": "https://grok.com/assets/grok-banner.png",
+    "description": "xAI’s innovative chatbot known for its bold, irreverent personality and advanced features including image generation and real-time web search.",
+    "details": "<h2>Grok: xAI’s Bold Step into Autonomous Chatbots</h2>\n<p>Grok is a distinctive AI chatbot developed by xAI that mixes humor with advanced functionalities such as photorealistic image generation and integrated web search. Its rebellious tone and direct style have set it apart from more traditional assistants, offering a refreshing alternative for users seeking both efficiency and personality.</p>\n<p><img src=\"https://grok.com/assets/grok-logo.png\" alt=\"Grok Logo\" style=\"max-width:100%;height:auto;\" /></p>\n<p>Available to subscribers on X (formerly Twitter), Grok allows users to explore AI-driven interactions that go beyond text – including generating images on the fly and retrieving real-time information from the web. Its versatility and innovative approach make it a compelling choice for those looking to break the mold in conversational AI.</p>\n<p>For more details, visit the <a href=\"https://grok.com/\" target=\"_blank\">Grok website</a> and read the latest blog posts and announcements from xAI.</p>",
+    "tags": ["chatbot", "image generation", "web search"]
   },
   {
-    "id": 3,
-    "name": "Agent Three",
-    "thumbnail": "https://placehold.co/200x200?text=Language+AI",
-    "banner": "agent3-banner.jpg",
-    "description": "Brief description of Agent Three.",
-    "details": "Detailed description of Agent Three. This section can include features, background info, and links for further exploration."
-  },
-  {
-    "id": 1,
-    "name": "Agent One",
-    "thumbnail": "https://placehold.co/200x200?text=Language+AI",
-    "banner": "agent1-banner.jpg",
-    "description": "Brief description of Agent One.",
-    "details": "Detailed description of Agent One. This section can include features, background info, and links for further exploration."
-  },
-  {
-    "id": 2,
-    "name": "Agent Two",
-    "thumbnail": "https://placehold.co/200x200?text=Language+AI",
-    "banner": "agent2-banner.jpg",
-    "description": "Brief description of Agent Two.",
-    "details": "Detailed description of Agent Two. This section can include features, background info, and links for further exploration."
-  },
-  {
-    "id": 3,
-    "name": "Agent Three",
-    "thumbnail": "https://placehold.co/200x200?text=Language+AI",
-    "banner": "agent3-banner.jpg",
-    "description": "Brief description of Agent Three.",
-    "details": "Detailed description of Agent Three. This section can include features, background info, and links for further exploration."
-  },
-  {
-    "id": 1,
-    "name": "Agent One",
-    "thumbnail": "https://placehold.co/200x200?text=Language+AI",
-    "banner": "agent1-banner.jpg",
-    "description": "Brief description of Agent One.",
-    "details": "Detailed description of Agent One. This section can include features, background info, and links for further exploration."
-  },
-  {
-    "id": 2,
-    "name": "Agent Two",
-    "thumbnail": "https://placehold.co/200x200?text=Language+AI",
-    "banner": "agent2-banner.jpg",
-    "description": "Brief description of Agent Two.",
-    "details": "Detailed description of Agent Two. This section can include features, background info, and links for further exploration."
-  },
-  {
-    "id": 3,
-    "name": "Agent Three",
-    "thumbnail": "https://placehold.co/200x200?text=Language+AI",
-    "banner": "agent3-banner.jpg",
-    "description": "Brief description of Agent Three.",
-    "details": "Detailed description of Agent Three. This section can include features, background info, and links for further exploration."
-  },
-  {
-    "id": 1,
-    "name": "Agent One",
-    "thumbnail": "https://placehold.co/200x200?text=Language+AI",
-    "banner": "agent1-banner.jpg",
-    "description": "Brief description of Agent One.",
-    "details": "Detailed description of Agent One. This section can include features, background info, and links for further exploration."
-  },
-  {
-    "id": 2,
-    "name": "Agent Two",
-    "thumbnail": "https://placehold.co/200x200?text=Language+AI",
-    "banner": "agent2-banner.jpg",
-    "description": "Brief description of Agent Two.",
-    "details": "Detailed description of Agent Two. This section can include features, background info, and links for further exploration."
-  },
-  {
-    "id": 3,
-    "name": "Agent Three",
-    "thumbnail": "https://placehold.co/200x200?text=Language+AI",
-    "banner": "agent3-banner.jpg",
-    "description": "Brief description of Agent Three.",
-    "details": "Detailed description of Agent Three. This section can include features, background info, and links for further exploration."
-  },
-  {
-    "id": 1,
-    "name": "Agent One",
-    "thumbnail": "https://placehold.co/200x200?text=Language+AI",
-    "banner": "agent1-banner.jpg",
-    "description": "Brief description of Agent One.",
-    "details": "Detailed description of Agent One. This section can include features, background info, and links for further exploration."
-  },
-  {
-    "id": 2,
-    "name": "Agent Two",
-    "thumbnail": "https://placehold.co/200x200?text=Language+AI",
-    "banner": "agent2-banner.jpg",
-    "description": "Brief description of Agent Two.",
-    "details": "Detailed description of Agent Two. This section can include features, background info, and links for further exploration."
-  },
-  {
-    "id": 3,
-    "name": "Agent Three",
-    "thumbnail": "https://placehold.co/200x200?text=Language+AI",
-    "banner": "agent3-banner.jpg",
-    "description": "Brief description of Agent Three.",
-    "details": "Detailed description of Agent Three. This section can include features, background info, and links for further exploration."
+    "id": "textcortex",
+    "name": "TextCortex AI",
+    "thumbnail": "",
+    "banner": "https://textcortex.com/wp-content/uploads/2020/12/textcortex-banner.png",
+    "description": "A business-focused AI assistant that streamlines content creation, data analysis, and workflow automation using cutting-edge language models.",
+    "details": "<h2>TextCortex AI: Empowering Business with Intelligent Automation</h2>\n<p>TextCortex AI is engineered to boost enterprise productivity by automating the generation of high-quality content, performing in-depth data analysis, and optimizing workflows. By integrating multiple advanced language models, it offers a robust solution for businesses looking to stay ahead in a competitive digital landscape.</p>\n<p><img src=\"https://textcortex.com/wp-content/uploads/2020/12/textcortex-logo.png\" alt=\"TextCortex Logo\" style=\"max-width:100%;height:auto;\" /></p>\n<p>The platform supports a wide range of applications – from drafting marketing copy and social media posts to generating detailed reports and insights. Its seamless integration with popular business tools makes it a versatile asset for modern enterprises.</p>\n<p>Explore detailed case studies, customer testimonials, and a comprehensive guide to getting started by visiting the <a href=\"https://textcortex.com/\" target=\"_blank\">TextCortex AI website</a> and browsing their <a href=\"https://textcortex.com/blog/\" target=\"_blank\">blog</a>.</p>",
+    "tags": ["business", "content creation", "automation"]
   }
 ]

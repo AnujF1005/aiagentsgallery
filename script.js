@@ -9,10 +9,14 @@ document.addEventListener('DOMContentLoaded', function () {
         const card = document.createElement('div');
         card.className = 'agent-card';
         card.onclick = () => window.location.href = `agent.html?id=${agent.id}`;
+        const thumbnail = agent.thumbnail ? agent.thumbnail : 'assets/placeholder.png';
+        const description = agent.description.length > 100 ? agent.description.substring(0, 100) + '...' : agent.description;
+        const tags = agent.tags.map(tag => `<span class="tag">${tag}</span>`).join(' ');
         card.innerHTML = `
-          <img src="${agent.thumbnail}" alt="${agent.name}">
+          <img src="${thumbnail}" alt="${agent.name}">
           <h2 class="agent-title">${agent.name}</h2>
-          <p class="agent-description">${agent.description}</p>
+          <p class="agent-description">${description}</p>
+          <div class="agent-tags">${tags}</div>
         `;
         gallery.appendChild(card);
       });
@@ -25,7 +29,8 @@ document.addEventListener('DOMContentLoaded', function () {
     
     agentCards.forEach(card => {
       const agentName = card.querySelector('h2').textContent.toLowerCase();
-      if (agentName.includes(filter)) {
+      const agentTags = Array.from(card.querySelectorAll('.agent-tags')).map(tag => tag.textContent.toLowerCase());
+      if (agentName.includes(filter) || agentTags.some(tag => tag.includes(filter))) {
         card.style.display = '';
       } else {
         card.style.display = 'none';
