@@ -22,7 +22,9 @@
   </header>
   
   <section class="agent-detail">
-    <center><img id="agentBanner" src="" alt="Agent Banner"></center>
+    <div id="bannerContainer" style="display: none;">
+      <center><img id="agentBanner" src="" alt="Agent Banner"></center>
+    </div>
     <div id="agentTags" class="agent-tags"></div>
     <div id="agentDetails">Agent details go here.</div>
   </section>
@@ -38,7 +40,13 @@
           const agent = data.find(a => a.id == agentId);
           if (agent) {
             document.getElementById('agentName').textContent = agent.name;
-            document.getElementById('agentBanner').src = agent.banner;
+            
+            // Only show banner if it exists and is not empty
+            if (agent.banner && agent.banner.trim() !== '') {
+              document.getElementById('agentBanner').src = agent.banner;
+              document.getElementById('bannerContainer').style.display = 'block';
+            }
+
             const tags = agent.tags.map(tag => `<span class="tag">${tag}</span>`).join(' ');
             document.getElementById('agentTags').innerHTML = tags;
 
