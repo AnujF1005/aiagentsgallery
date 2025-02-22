@@ -14,20 +14,55 @@
 
     gtag('config', 'G-54E1WHLVRM');
   </script>
+  <style>
+    .wip-banner {
+      background-color: var(--accent-color);
+      color: var(--bg-color);
+      text-align: center;
+      padding: 0.5rem;
+      font-weight: bold;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      animation: pulse 2s infinite;
+  }
+
+  @keyframes pulse {
+      0% { opacity: 1; }
+      50% { opacity: 0.5; }
+      100% { opacity: 1; }
+  }
+
+  /* Adjust container to account for banner */
+  .container {
+      padding-top: 1rem;
+  }
+  </style>
 </head>
 <body>
   <header>
-    <h1 style="font-family: Consolas;">AI Agents Gallery</h1>
+    <div class="header-block">
+      <h1 style="letter-spacing: 4px; font-size: x-large;">AI Agents Gallery</h1>
+      <div class="tagline">the modern art...</div>
+    </div>
   </header>
-  
+  <div class="wip-banner">
+    🚧 Work in Progress! 🚧
+  </div>
   <section class="search-section">
     <input type="text" id="agentSearch" placeholder="Search AI Agents...">
   </section>
   
-  <section class="gallery">
-    <!-- Agent cards will be dynamically generated here -->
-  </section>
-  
+  <main class="gallery" id="gallery">
+    <!-- Cards will be dynamically inserted here -->
+  </main>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <p>© 2025 AI Agents Gallery</p>
+    </div>
+  </footer>
+
   <script src="script.js"></script>
 </body>
 </html>

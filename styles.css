@@ -5,16 +5,26 @@ body {
   font-family: 'Consolas', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   margin: 0;
   padding: 0;
+  min-height: 100vh; /* Ensure minimum height is full viewport */
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+}
+
+/* Push main content to fill available space */
+main {
+  flex: 1; /* Make main content expand to fill available space */
 }
 
 /* Header Style */
 header {
-  display: flex;
+  display: block;
   align-items: center;
   justify-content: center;
   position: relative;
   padding: 20px;
   border-bottom: 1px solid #333;
+  text-align: center;
+  margin-bottom: 1rem;
 }
 
 h1 {
@@ -103,16 +113,20 @@ a:hover {
   display: flex;
   justify-content: center;
   padding: 1rem 0;
+  
 }
 
 .search-section input {
   width: 80%;
+  height: 25px;
   max-width: 500px;
   padding: 0.75rem;
   border: none;
-  border-radius: 4px;
+  border-radius: 10px;
   background-color: #1e1e1e;
   color: #e0e0e0;
+  font-size: medium;
+  font-family: 'Consolas';
 }
 
 /* Gallery Grid */
@@ -189,3 +203,70 @@ a:hover {
   margin-top: 0.5rem;
   text-align: center;
 }
+
+/* Update footer styles */
+.footer {
+  margin-top: auto; /* Push footer to bottom when content is short */
+  padding: 1rem; /* Reduced from 2rem to 1rem */
+  background-color: #1e1e1e;
+  border-top: 1px solid #333;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem; /* Reduced from 1rem to 0.5rem */
+}
+
+.footer-links {
+  display: flex;
+  gap: 1rem; /* Reduced from 2rem to 1rem */
+}
+
+.footer a {
+  color: var(--text-color);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.footer a:hover {
+  color: var(--accent-color);
+}
+
+@media (max-width: 600px) {
+  .footer-content {
+      flex-direction: column;
+      text-align: center;
+  }
+  
+  .footer-links {
+      gap: 1rem;
+  }
+}
+
+/* Add styles for the tagline */
+.tagline {
+    color: var(--accent-color);
+    font-size: 1rem;
+    opacity: 0.8;
+    font-style: italic;
+    letter-spacing: 2px;
+    text-align: left;  /* Left align the tagline */
+}
+
+.header-block {
+    width: 90%;  /* Percentage-based width */
+    max-width: 400px;  /* Maximum width */
+    margin: 0 auto 0.5rem auto;  /* Center the block horizontally */
+    text-align: left;  /* Default alignment for the block */
+    padding: 0 1rem;  /* Add padding for smaller screens */
+}
+
+.header-block h1 {
+    text-align: left;  /* left align the title */
+    margin-bottom: 0.5rem;
+} 
